@@ -17,29 +17,47 @@ html {
   background-image: url('aa.jpg');
   padding: 32px;
 }
-
+.intro{
+  height: 128px;
+  width: 388px;
+  margin-bottom: 28px;
+}
+.intro h1{
+  font-weight: 600;
+  font-size: 36px;
+  align-content: center;
+}
+.intro p{
+  font-weight: 400;
+  font-size: 18px;
+}
 .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0ef;
-  opacity: 90%;
-  border: 3px solid rgb(5, 76, 82);
+  background: rgb(224, 245, 247);
+  width: 816px;
+  height: 1076px;
+  opacity: 85%;
+  border: 2px solid rgb(5, 76, 82);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  flex: 1;
 }
 
-.Login-form,
 .content-img {
-  padding: 20px;
+  padding: 10px;
 }
 
 .Login-form {
   width: 388px;
   height: 537px;
-  margin: 50px;
-  flex: 1;
+
+  margin: auto;
+}
+.Login-form form{
+  margin-top: auto;
 }
 
 .content-img img {
@@ -51,13 +69,14 @@ html {
 
 .input-box {
   margin-bottom: 20px;
-  
+  padding: 0;
+  width:388px;
+  height: 72px;
 }
 
 .input-box input {
-  width: 388px;
+  width:388px;
   height: 48px;
-  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 12px;
 }
@@ -71,6 +90,8 @@ html {
   border: none;
   border-radius: 12px;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .btn:hover {
@@ -88,6 +109,10 @@ html {
   text-decoration: none;
   margin-top: 20px 0;
   padding-left: 250px;
+}
+.register-link{
+ text-align: center;
+
 }
 .register-link a{
   text-decoration: none;
