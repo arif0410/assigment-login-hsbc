@@ -131,9 +131,16 @@ html {
   .content {
     flex-direction: column;
   }
-
+  .input-box{
+    width: 342px;
+    height: 64px;
+  }
+  .input-box input{
+    width: 342px;
+    height: 42px;
+  }
   .content-img {
-    order: -1; /* buat majuin gambar */
+    order: -1; 
     width: 342px;
     height: 180px;
     padding-right: 413px;
